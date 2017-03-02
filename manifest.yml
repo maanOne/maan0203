@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: maan0203
+  host: maan0203
+  disk_quota: 1024M
+  services:
+  - maan0203-cloudantNoSQLDB
+  - availability-monitoring-auto
